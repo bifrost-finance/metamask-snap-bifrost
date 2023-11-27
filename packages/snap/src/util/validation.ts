@@ -1,4 +1,4 @@
-import type { BlockId, TxPayload } from '@chainsafe/metamask-polkadot-types';
+import type { BlockId, TxPayload } from '@bifrost-finance/metamask-bifrost-types';
 import type { SignerPayloadJSON, SignerPayloadRaw } from '@polkadot/types/types';
 import type { Describe } from 'superstruct';
 import { array, enums, number, object, optional, string, type, union } from 'superstruct';
@@ -18,6 +18,8 @@ const SignaturePayloadJSONSchema = type({
   version: number()
 });
 
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore TS2322
 export const validSignPayloadJSONSchema: Describe<{
   payload: SignerPayloadJSON;
 }> = object({
@@ -65,6 +67,8 @@ export const validGenerateTransactionPayloadSchema: Describe<{
   to: string()
 });
 
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore TS2322
 export const validSendSchema: Describe<{
   signature: string;
   txPayload: TxPayload;

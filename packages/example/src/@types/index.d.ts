@@ -1,6 +1,6 @@
-import type { SnapConfig } from '@chainsafe/metamask-polkadot-types';
+import type { SnapConfig } from '@bifrost-finance/metamask-bifrost-types';
 
-declare module '@chainsafe/metamask-polkadot-adapter' {
+declare module '@bifrost-finance/metamask-bifrost-adapter' {
   export function injectMetamaskPolkadotSnapProvider(
     network: 'westend' | 'kusama',
     config?: SnapConfig,

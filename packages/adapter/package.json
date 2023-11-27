@@ -1,10 +1,10 @@
 {
-  "name": "@chainsafe/metamask-polkadot-adapter",
+  "name": "@bifrost-finance/metamask-bifrost-adapter",
   "version": "0.6.0",
   "main": "./build/index.js",
   "module": "./build/index.js",
   "types": "./build/index.d.ts",
-  "author": "ChainSafe <info@chainsafe.io>",
+  "author": "BifrostFinance <info@bifrost.finance>",
   "license": "Apache-2.0",
   "homepage": "https://github.com/chainsafe/metamask-snap-polkadot/tree/master/packages/adapter",
   "keywords": [

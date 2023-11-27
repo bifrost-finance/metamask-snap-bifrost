@@ -1,18 +1,18 @@
 {
-  "version": "0.8.2",
-  "description": "The Polkadot snap.",
-  "proposedName": "Polkadot Wallet",
+  "version": "0.8.11",
+  "description": "The Bifrost snap.",
+  "proposedName": "Bifrost Wallet",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/chainsafe/metamask-snap-polkadot.git"
   },
   "source": {
-    "shasum": "13xBr1T1+K2zd0lonNjjaMlnvNk9HgI15XHF+5UtORE=",
+    "shasum": "qsxxQctreJJZfZxBE1AmmhEoHj0lMho9Q8Y5yf0MxuE=",
     "location": {
       "npm": {
         "filePath": "dist/bundle.js",
         "iconPath": "images/logo.svg",
-        "packageName": "@chainsafe/polkadot-snap",
+        "packageName": "@bifrost-finance/snap",
         "registry": "https://registry.npmjs.org/"
       }
     }
@@ -31,6 +31,9 @@
       },
       {
         "coinType": 434
+      },
+      {
+        "coinType": 788
       }
     ],
     "snap_manageState": {}

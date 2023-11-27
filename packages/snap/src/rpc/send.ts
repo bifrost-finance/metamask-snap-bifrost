@@ -1,5 +1,5 @@
 import type { ApiPromise } from '@polkadot/api';
-import type { Transaction, TxPayload } from '@chainsafe/metamask-polkadot-types';
+import type { Transaction, TxPayload } from '@bifrost-finance/metamask-bifrost-types';
 import { saveTxToState } from '../polkadot/tx';
 import { getAddress } from './getAddress';
 

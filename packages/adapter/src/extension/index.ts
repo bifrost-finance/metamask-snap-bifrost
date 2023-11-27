@@ -1,7 +1,7 @@
 import type { Injected, InjectedAccount, InjectedWindow } from '@polkadot/extension-inject/types';
 import type { SignerPayloadJSON, SignerPayloadRaw, SignerResult } from '@polkadot/types/types';
 import type { HexString } from '@polkadot/util/types';
-import type { SnapConfig } from '@chainsafe/metamask-polkadot-types';
+import type { SnapConfig } from '@bifrost-finance/metamask-bifrost-types';
 import type { SnapInstallationParamNames } from '../index';
 import { enablePolkadotSnap } from '../index';
 import { hasMetaMask, isMetamaskSnapsSupported } from '../utils';
@@ -51,7 +51,7 @@ function injectPolkadotSnap({
           // Currently there is only available only one account, in that case this method will never return anything
           // eslint-disable-next-line @typescript-eslint/no-unused-vars
           subscribe: (_cb: (accounts: InjectedAccount[]) => void): (() => void) => {
-            return (): void => {};
+            return (): void => { };
           }
         },
         signer: {

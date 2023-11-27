@@ -1,9 +1,9 @@
 import chai, { expect } from 'chai';
 import sinonChai from 'sinon-chai';
+import type { SnapConfig } from '@bifrost-finance/metamask-bifrost-types';
 import { kusamaConfiguration, westendConfiguration } from '../../../src/configuration/predefined';
 import { configure } from '../../../src/rpc/configure';
 import { EmptyMetamaskState } from '../../../src/interfaces';
-import { SnapConfig } from '@chainsafe/metamask-polkadot-types';
 import { getWalletMock } from '../wallet.mock';
 
 chai.use(sinonChai);

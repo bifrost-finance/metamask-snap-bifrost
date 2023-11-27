@@ -1,4 +1,4 @@
-# Polkadot Wallet Snap for MetaMask
+# Bifrost Wallet Snap for MetaMask
 
 ![](https://github.com/chainsafe/metamask-snap-polkadot/workflows/ci/badge.svg)
 ![](https://img.shields.io/github/issues-raw/chainsafe/metamask-snap-polkadot)
@@ -11,7 +11,7 @@ capabilities to include support for Polkadot, Kusama, and other
 
 ## Documentation
 
-Polkadot Wallet snap architecture, integration steps and detailed API documentation for dApp
+Bifrost Wallet snap architecture, integration steps and detailed API documentation for dApp
 developers is covered in the
 [project wiki](https://github.com/ChainSafe/metamask-snap-polkadot/wiki), which also includes a
 usage guide for the [example dApp](https://polkadot.snap.chainsafe.io/).
@@ -20,7 +20,7 @@ usage guide for the [example dApp](https://polkadot.snap.chainsafe.io/).
 
 Developers who wish to use the snap locally must use [MetaMask Flask](https://metamask.io/flask/);
 run the following commands from the project root to launch the
-[Polkadot Wallet Snap Example dApp](https://github.com/ChainSafe/metamask-snap-polkadot/tree/master/packages/example).
+[Bifrost Wallet Snap Example dApp](https://github.com/ChainSafe/metamask-snap-polkadot/tree/master/packages/example).
 
 - `yarn install`
 - `yarn build`

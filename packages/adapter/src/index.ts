@@ -1,9 +1,9 @@
 import '@polkadot/types-augment';
-import type { SnapConfig } from '@chainsafe/metamask-polkadot-types';
+import type { SnapConfig } from '@bifrost-finance/metamask-bifrost-types';
 import { MetamaskPolkadotSnap } from './snap';
 import { hasMetaMask, isMetamaskSnapsSupported, isPolkadotSnapInstalled } from './utils';
 
-const defaultSnapOrigin = 'npm:@chainsafe/polkadot-snap';
+const defaultSnapOrigin = 'npm:@bifrost-finance/snap';
 
 export type SnapInstallationParamNames = string;
 

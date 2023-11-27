@@ -1,4 +1,4 @@
-import type { SnapConfig } from '@chainsafe/metamask-polkadot-types';
+import type { SnapConfig } from '@bifrost-finance/metamask-bifrost-types';
 import { getMetamaskState } from '../rpc/getMetamaskState';
 import {
   defaultConfiguration,

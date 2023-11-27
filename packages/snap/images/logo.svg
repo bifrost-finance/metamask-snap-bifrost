@@ -1,13 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" id="Logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 1326.1 1410.3" style="enable-background:new 0 0 1326.1 1410.3;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#E6007A;}
-</style>
-<ellipse class="st0" cx="663" cy="147.9" rx="254.3" ry="147.9"/>
-<ellipse class="st0" cx="663" cy="1262.3" rx="254.3" ry="147.9"/>
-<ellipse transform="matrix(0.5 -0.866 0.866 0.5 -279.1512 369.5916)" class="st0" cx="180.5" cy="426.5" rx="254.3" ry="148"/>
-<ellipse transform="matrix(0.5 -0.866 0.866 0.5 -279.1552 1483.9517)" class="st0" cx="1145.6" cy="983.7" rx="254.3" ry="147.9"/>
-<ellipse transform="matrix(0.866 -0.5 0.5 0.866 -467.6798 222.044)" class="st0" cx="180.5" cy="983.7" rx="148" ry="254.3"/>
-<ellipse transform="matrix(0.866 -0.5 0.5 0.866 -59.8007 629.9254)" class="st0" cx="1145.6" cy="426.6" rx="147.9" ry="254.3"/>
+
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="20" cy="20" r="20" fill="#1B2026"/>
+<path d="M20.4175 26.6364H11L25.1262 13H29.835L20.4175 26.6364Z" fill="url(#paint0_linear_10870_141303)"/>
+<defs>
+<linearGradient id="paint0_linear_10870_141303" x1="20.4175" y1="13" x2="20.4175" y2="26.6364" gradientUnits="userSpaceOnUse">
+<stop stop-color="#12D5D5"/>
+<stop offset="0.201333" stop-color="#0BB0F8"/>
+<stop offset="0.403244" stop-color="#4584F5"/>
+<stop offset="0.602076" stop-color="#AC57C0"/>
+<stop offset="0.801867" stop-color="#E65659"/>
+<stop offset="1" stop-color="#FFBF12"/>
+</linearGradient>
+</defs>
 </svg>

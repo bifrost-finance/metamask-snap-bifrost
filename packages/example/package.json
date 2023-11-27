@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@chainsafe/metamask-polkadot-adapter": "workspace:^",
-    "@chainsafe/metamask-polkadot-types": "workspace:^",
+    "@bifrost-finance/metamask-bifrost-adapter": "workspace:^",
+    "@bifrost-finance/metamask-bifrost-types": "workspace:^",
     "@material-ui/core": "^4.12.4",
     "@material-ui/icons": "^4.11.3",
     "@material-ui/lab": "latest",

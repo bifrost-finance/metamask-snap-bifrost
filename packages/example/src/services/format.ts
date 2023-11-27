@@ -4,6 +4,9 @@ export function shortAddress(address: string): string {
 
 export function getCurrency(network: string): string {
   switch (network) {
+    case 'bifrostKusama':
+    case 'bifrostPolkadot':
+      return 'BNC';
     case 'kusama':
       return 'KSM';
     case 'westend':
